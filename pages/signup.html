@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Shadow</title>
+    <link rel="icon" href="assets/logo.png">
+    <link rel="stylesheet" href="/style/signup.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form id="loginForm">
+                <div class="input-group emailInput">
+                    <input id="email" type="email" placeholder="Email" required>
+                    <i id="icon" class="fa-duotone fa-solid fa-envelope"></i>
+                </div>
+
+                <div class="input-group passwordInput">
+                    <input id="password" type="password" placeholder="Password" required>
+                    <i id="icon" class="fa-duotone fa-solid fa-lock"></i>
+                </div>
+
+                <div class="input-group roleInput">
+                    <input id="role" type="text" placeholder="Role" required>
+                    <i id="icon" class="fa-duotone fa-solid fa-user"></i>
+                </div>
+
+                <button id="login" type="button" class="login-btn" id="user_register">REGISTER</button>
+
+                <p class="signup-text">Already have an account? <a href="/signin.html">Sign In</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/auth.js"></script>
+</body>
+</html>
